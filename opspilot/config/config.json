@@ -1,0 +1,4 @@
+{
+  "thresholds": {"cpu_percent": 85, "memory_percent": 90, "disk_percent": 90, "load_per_cpu": 2.0},
+  "remediation": {"dry_run": true, "allowed_services": ["opspilot-demo.service"], "restart_cooldown_seconds": 300}
+}
